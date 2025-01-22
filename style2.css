@@ -1,0 +1,921 @@
+/* A*/
+
+.apple-button {
+    background-color: #000000; /* Color para Apple Maps */
+}
+/*B */
+body {
+   background-color: #ddcdce;
+}
+/* C */
+.cards {
+    width: 100%; 
+    border-style:hidden;
+    border-radius: 1em;
+    background-color:#C7B7A3;
+    border-radius: 0%; /* Hace el contenedor circular */
+    overflow: hidden; /* Para asegurarte de que todo dentro siga las proporciones del círculo */
+    display: flex;
+    height: 400px;
+    border-radius: 40%; /* Hace el contenedor circular */
+    overflow: hidden; /* Asegura que el contenido dentro del círculo no se salga */
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 20px rgba(116, 41, 41, 0.2); /* Sombra alrededor de las tarjetas */
+}
+
+.Color{
+
+    color: #DDA853; /* Cambia el color del texto */
+}
+#Color{
+
+    color: #C7B7A3; /* Cambia el color del texto */
+}
+
+#Card-Open{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+    background-image: url('img_edit/2.jpeg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;             /* Anchura del círculo */
+    height: 600px;           /* Altura del círculo */
+    background-attachment:fixed;
+    margin: 0;
+    height: 150vh;  
+    background-position: top center;
+    margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+}
+
+
+
+#Card-Frase{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+    background-image: url('https://img.freepik.com/premium-photo/rectangle-gold-frame-with-foliage-pattern-background_972234-2236.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;           /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;  
+    background-position: top center;
+    margin: 0 auto; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Foto-larga{
+    background-color: #F9F7C9;
+    margin-top: 0cm;
+    /*background-image: url('img_edit/17.jpg');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: 100px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 200vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Foto-degradado{
+    /*background-color: #F9F7C9;*/
+    margin-top: 0cm;
+    background-image: url('img/https://img.freepik.com/fotos-premium/acuarela-color-rojo-oscuro-textura-fondo-pintado-mano-fondo-color-vino-tinto-acuarela_145343-192.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;          /* Anchura del círculo */
+    height: 100px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 50vh;  
+  /*  background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Wo{
+    /*background-color: #F9F7C9;*/
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0603.JPG');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: auto;            /* Anchura del círculo */
+    height: auto;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0; 
+    background-position: top center;
+    margin: 0 auto; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Fondo{
+    /*background-color: #56070c;*/
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0624.JPG'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;             /* Anchura del círculo */
+           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: auto;  
+    background-position: top center; 
+    margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#Card-Fondo2{
+    /*background-color: #56070c;*/
+    margin-top: 0cm;
+    /*background-image: url('img_edit/10.jpg'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: 1000px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 150vh;  
+    background-position: top center;
+    margin: 0 auto; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
+}
+#Card-Fondo3{
+    /*background-color: #56070c;*/
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0539.JPG'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;           /* Anchura del círculo */         /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height:auto; 
+    background-position: top center;
+    margin: 0 auto; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Fondo4{
+    /*background-color: #56070c;*/
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0539.JPG'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;           /* Anchura del círculo */
+    height: 1500px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 400vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Fondo5{
+    /*background-color: #56070c;*/
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0539.JPG'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: 1500px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 400vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 45%;
+    padding-right: 45%;
+}
+#Card-Fondo6{
+    background-color: #C7B7A3;
+    margin-top: 0cm;
+    /*background-image: url('img/IMG_0624.JPG'); */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: auto;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0; 
+    background-position: top center; 
+    margin: 0 auto;
+    padding-left: 18%;
+    padding-right: 13%;
+    padding-bottom: 13%;/* Coloca la imagen en la parte superior y centrada */
+    padding-top: 18%;
+}
+#Card-Regalo{
+    background-color: #C7B7A3;
+    margin-top: 0cm;
+    /*background-image: url('img_edit/4.jpg');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;           /* Anchura del círculo */           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: auto; 
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
+    background-size: contain; 
+}
+#Card-Regalos {
+    background-color: #C7B7A3;
+    margin-top: 0cm;
+    background-image: url('img/fondo.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;           /* Anchura del círculo */           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: auto; 
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+    padding-left: 35%;
+    padding-right: 35%;
+    background-size: contain; 
+}
+
+#Card-Regalo2{
+    background-color: #e1bd91;
+    margin-top: 0cm;
+   /* background-image: url('img/IMG_0557.JPG');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 200vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Regalo3{
+    background-color: #e6b477;
+    margin-top: 0cm;
+   /* background-image: url('img/IMG_0557.JPG');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;             /* Anchura del círculo */
+    height:auto;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0; 
+    background-position: top center; 
+    margin: 0 auto;/* Coloca la imagen en la parte superior y centrada */
+}
+#Card-Regalo4{
+    background-color: #d9b78d;
+    margin-top: 0cm;
+   /* background-image: url('img/IMG_0557.JPG');*/
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+   /* background-position: center; /* Centra la imagen */
+   /* background-repeat: no-repeat; /* Evita que la imagen se repita */
+   width: auto;            /* Anchura del círculo */
+    height: 1200px;           /* Altura del círculo */
+    background-attachment: fixed;
+    margin: 0;
+    height: 50vh;  
+    background-position: top center; /* Coloca la imagen en la parte superior y centrada */
+}
+#Card-time{
+    background-color: #b17b39;
+    background-image: url('https://wallpapertag.com/wallpaper/full/0/5/9/539999-blue-flowers-wallpaper-1920x1200-windows-xp.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    width: auto;                       
+    background-attachment: fixed;
+    margin: 50%;
+    height:auto;  
+    background-position: top center; 
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    gap: 20px; /* Espaciado entre las columnas */
+    max-width: 200px; /* Puedes ajustar este valor según el tamaño que desees */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+.center{
+    width: 650px;
+    height: 650px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto; 
+}
+.margin0{
+    margin: 0 auto; 
+}
+.circle {
+    width: 190px;            /* Anchura del círculo */
+    height: 190px;           /* Altura del círculo */
+    border-radius: 60%;      /* Hace el div circular */
+    overflow: hidden;        /* Oculta el contenido que sobrepasa los bordes */
+   /*display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+}
+.circle img {
+    width: 50%;             /* La imagen ocupa todo el contenedor */
+    height: 50%;            /* Ajusta la imagen a la altura del contenedor */
+    object-fit: cover; 
+          /* Asegura que la imagen se ajuste bien sin deformarse */
+}
+
+.adjust {
+    width: 50px; /* Ajusta el tamaño como prefieras */
+    height: 50px; /* Asegúrate de que el ancho y alto sean iguales para el efecto de círculo */
+    border-radius: 10%; /* Esto hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+    border: 2px solid #ccc; /* Opcional: Añade un borde */
+}
+.adjust2 {
+    width: 70px; /* Ajusta el tamaño como prefieras */
+    height: 70px; /* Asegúrate de que el ancho y alto sean iguales para el efecto de círculo */
+    border-radius: 10%; /* Esto hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+    border: 2px solid #ccc; /* Opcional: Añade un borde */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circleEvents {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #d5f0c1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto; 
+}
+
+.circle h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    color: #C7B7A3;
+}
+
+.circle p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #b17e40;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    /*width: 80w;*/
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+.carousel2-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+.carousel-container2 {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease;
+    margin: 0 auto; 
+}
+.carousel-text-overlay {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10; /* Asegura que el texto esté por encima del carrusel */
+}
+.carousel2-text-overlay {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10; /* Asegura que el texto esté por encima del carrusel */
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.4s ease;
+}
+.carousel2-slide {
+    min-width: 100%;
+    transition: transform 0.4s ease;
+}
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 2s ease; /* Añadir transición para el efecto de zoom */
+}
+.carousel2-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 2s ease; /* Añadir transición para el efecto de zoom */
+}
+/* Efecto de zoom en la imagen activa */
+.carousel-slide.active img {
+    transform: scale(1.1); /* Zoom del 110% en la imagen activa */
+}
+.carousel2-slide.active img {
+    transform: scale(1.1); /* Zoom del 110% en la imagen activa */
+}
+.carousel3 {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.carousel3-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.carousel3-slide {
+    min-width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.carousel3-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* D*/
+/* E*/
+/* F*/
+.Font-Historia{
+font-family: "Great Vibes", cursive;
+}
+.Font-Cursive{
+    font-family: "Meow Script", serif;
+}
+.Font-Lugar{
+font-family: "Great Vibes", cursive;
+}
+.Font-Normal{
+    font-family: "Poiret One", serif;
+}
+.Font-Frase{
+    font-family:"Great Vibes", cursive;
+}
+
+.Font-size-G{
+    font-size: 10rem; /* Ajustar el tamaño */
+}
+.Font-size-M{
+    font-size: 4.5rem; /* Ajustar el tamaño */
+}
+.Font-size-S{
+    font-size: 1rem; /* Ajustar el tamaño */
+}
+.Font-size-GC{
+    font-size: 25px; /* Ajustar el tamaño */
+}
+.Font-size-MC{
+    font-size: 18px; /* Ajustar el tamaño */
+}
+.Font-size-SC{
+    font-size: 16px; /* Ajustar el tamaño */
+}
+.Font-size-Small{
+    font-size: 2.5rem; /* Ajustar el tamaño */
+}
+.Font-size-SM{
+    font-size: 7rem; /* Ajustar el tamaño */
+}
+.Font-Color-Black{
+    color: #000000;
+}
+.Font-Color-White{
+    color: #ecf0f1
+}
+.Foto-Open{
+        width: 100%;
+        height: 1500px;
+        background-image: 
+            radial-gradient(circle, rgba(255, 255, 255, 0) 60%, rgba(255, 0, 0, 1) 50%), /* Gradiente más pronunciado */
+            url('https://th.bing.com/th/id/R.29ea5fb65d3bdc3c924b969a64e2b91d?rik=caMVw6KQ9ZF%2bSA&pid=ImgRaw&r=0'); /* Imagen */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        border: 2px solid black; /* Añade un borde para asegurar visibilidad */
+    }
+    
+
+/* G*/
+.google-button {
+    background-color: #C7B7A3; /* Color para Google Maps */
+}
+/* H */
+/* I*/
+/* J */
+/* K*/
+/* L */
+ 
+/* L */
+.Section-Lugar{
+    border-style: double;
+    border-radius: 1em;
+    background-color: #C7B7A3;
+
+}
+/* M */
+.main {
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+    margin-top: 2em;
+}
+.map-button {
+    display: inline-block;
+    padding: 10%;
+    margin: 5px;
+    background-color:#bba385; /* Color del botón */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.gift-button{
+    
+        display: inline-block;
+        padding: 20%;
+        margin: 10px;
+        background-color:#bba385; /* Color del botón */
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        width: 100px;          /* Ajusta el ancho del botón */
+        height: 100px;
+        cursor: pointer;       /* Cambia el cursor al pasar sobre el botón */
+        display: flex;         /* Usado para centrar el texto dentro del botón */
+        justify-content: center; /* Centrar horizontalmente el texto */
+        align-items: center;   /* Centrar verticalmente el texto */
+        transition: background-color 0.3s; /* Transición suave al cambiar de color */
+        margin: 0 auto; 
+    
+    
+}
+.gift-button2{
+    
+    display: inline-block;
+    padding: 20%;
+    margin: 10px;
+    background-color:#bba385; /* Color del botón */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;          /* Ajusta el ancho del botón */
+    height: 100px;
+    cursor: pointer;       /* Cambia el cursor al pasar sobre el botón */
+    display: flex;         /* Usado para centrar el texto dentro del botón */
+    justify-content: center; /* Centrar horizontalmente el texto */
+    align-items: center;   /* Centrar verticalmente el texto */
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
+    margin: 0 auto; 
+
+
+}
+.map-button:hover {
+    opacity: 0.9; /* Efecto hover */
+}
+/* N*/
+/* O*/
+/*P */
+/*Q */
+/* R*/
+/*S */
+/*T */
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #bba385;
+    font-family: "Parisienne", cursive;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.text-center{
+    text-align: center; /* Centra el texto */
+}
+
+.timer {
+    display:flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 0px;
+    align-items: center;
+    padding: 50%;
+}
+
+.time-box {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding:1px;
+    border-radius: 10px;
+    width: 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-box span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #bba385;
+}
+
+.label {
+    font-size: 18PX;
+    margin-top: 5px;
+    color: #bba385 ;
+    font-family: "Parisienne", cursive;
+}
+
+/* Para darle aspecto de calendario */
+.timer {
+    background-color: #bba385;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+/*U*/
+/* V*/
+/* W*/
+/* X*/
+/*Y */
+/*Z */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#paddingM{
+    padding:5cm
+}
+
+
+.section {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+
+/* Línea de tiempo */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #bba385;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.event::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #bba385;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    top: 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.menu {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilo de los elementos del menú */
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Cambio de color al pasar el mouse por encima */
+.menu a:hover {
+    background-color: #575757;
+}
+
+/* Agregar espacio superior al contenido para que no quede oculto por el menú */
+.content {
+    padding-top: 60px;
+}
+
+
+
+/*audiooooooooooooooooooo */
+.audio-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .play-pause-btn {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: #C7B7A3; /* Color del botón */
+        cursor: pointer;
+        outline: none;
+        position: relative;
+    }
+
+    /* Estilos para el icono de "play" */
+    .play-pause-btn::before {
+        content: '';
+        position: absolute;
+        left: 23px;
+        top: 18px;
+        border-style: solid;
+        border-width: 10px 0 10px 18px;
+        border-color: transparent transparent transparent white;
+    }
+
+    /* Estilos para el icono de "pause" */
+    .paused::before {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        width: 6px;
+        height: 6px;
+        background-color: white;
+    }
+
+    .paused::after {
+        content: '';
+        position: absolute;
+        left: 32px;
+        top: 18px;
+        width: 8px;
+        height: 24px;
+        background-color: white;
+    }
+    .esfumado-vino {
+        width: 100%;
+        height: auto; /* Ajusta según el tamaño del contenedor deseado */
+        background: linear-gradient(135deg, 135deg, #C7B7A3, #EADBC8, #d5a961, #FBF5DD);
+    }
+    .Cite{
+        Color: #fff;
+        font-family: "Arapey", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    }
+    .text-padding {
+        padding: 20px; /* Añade un espacio de 20px alrededor del texto */
+        margin: 10%;
+    }
+    /* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+
+    .timer {
+      
+        gap: 10px;
+    }
+
+    .time-box {
+        flex: 1 1 45%; /* Cada caja ocupa el 45% del ancho disponible */
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media (max-width: 480px) {
+
+
+    .time-box {
+        flex: 1 1 100%; /* Cada caja ocupa el 100% del ancho disponible */
+    }
+
+}
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+
+
+    .prev, .next {
+        padding: 5px;
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media (max-width: 480px) {
+
+
+    .prev, .next {
+        font-size: 0.8rem;
+    }
+}
+*{
+    margin: 0 auto
+}
